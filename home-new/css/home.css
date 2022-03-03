@@ -1,0 +1,617 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu .navbar-nav > li > a {
+    font-size:17px;
+	font-family: 'Lato', sans-serif;
+	color: #333740;
+
+}
+
+#menu .navbar-nav > li > a:hover
+{ color:#0cc3fb;
+}
+
+
+#menu
+{ 
+border:none;
+border-bottom: 1px solid rgba(221,221,221,.35);
+background:transparent;
+margin-bottom:0;
+}
+
+
+
+
+#menu .navbar-brand
+{ height:auto;
+padding:10px 15px;
+}
+
+#menu .navbar-right
+{ margin-top:5px;
+}
+
+
+
+
+
+.top-area h1
+{ font-family: 'Raleway', sans-serif;
+font-weight:700;
+font-size:59px;
+margin-top:0;
+margin-bottom:0;
+}
+
+.top-area h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    line-height: 140%;
+}
+
+
+
+.top-area p
+{ font-size:16px;
+line-height:150%;
+}
+
+.top-area{
+    background-image: url(../images/top-area-background.jpg?v=1.24);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+	padding:7% 0;
+}
+
+.top-area .order-now
+{ margin-top:5%;
+}
+
+.top-area .order-now a {
+    padding: 12px 9%;
+    background-color: #0cc3fb;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.top-area .order-now a:hover
+{ text-decoration:none;
+}
+
+.second-section
+{ padding:3% 0;
+}
+
+.second-section h4 {
+    text-align: center;
+    font-family: courgette,cursive;
+    color: #0cc3fb;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.second-section h2 {
+    font-size: 34px;
+    line-height: 44px;
+    color: #333740;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.second-section h2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 80px;
+    border-radius: 20px;
+    background: #0cc3fb;
+}
+
+
+
+
+.second-section .reclaim { 
+    font-family: courgette,cursive;
+    color: #0cc3fb;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.second-section .boost {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin-top: 8px;
+    font-weight: 600;
+	margin-bottom:6%;
+}
+
+.pad-left-0
+{ padding-left:0;
+}
+
+
+.service-box
+{ margin-bottom: 28px;
+padding-left: 30px;
+    padding-right: 30px;
+	position: relative;
+}
+
+.service-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 126px;
+    background: #0cc3fb;
+    border-radius: 10px;
+}
+
+.service-box h6 {
+    font-size: 18px;
+    /* line-height: 28px; */
+    padding-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+
+.second-section .order-now
+{ margin-top:5%;
+}
+
+.second-section .order-now a {
+    padding: 15px 9%;
+    background-color: #0cc3fb;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.second-section .order-now a:hover
+{ text-decoration:none;
+}
+
+.second-section .last-row
+{ border-bottom: 1px solid #c8c8c8;
+}
+
+
+.third-section p
+{ font-size:20px;
+line-height:148%;
+color:#000;
+}
+
+.third-section p:last-child
+{ margin-bottom:0;
+}
+
+
+
+
+.third-section{
+    background-image: url(../images/top-area-background.jpg?v=1.24);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+	padding:4% 0;
+}
+
+.third-section .click-here
+{ text-align:center;
+font-size:30px;
+text-transform: capitalize;
+font-family: 'Raleway', sans-serif;
+}
+
+.third-section .order-now {
+    margin-top: 3%;
+	text-align:center;
+}
+
+.third-section .order-now a {
+    padding: 15px 9%;
+    background-color: #0cc3fb;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+	
+}
+
+.third-section .order-now a:hover
+{ text-decoration:none;
+}
+
+
+
+
+/*************section-forth***************/
+
+.forth-section{
+    
+	padding:2% 0;
+}
+
+.forth-section h2 {
+    font-size: 44px;
+    line-height: 120%;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+	text-align:center;
+	padding: 0 2%;
+}
+
+.forth-section h3 {
+    font-size: 26px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+	text-align:center;
+	margin-top:0;
+}
+
+/*************section-forth***************/
+
+
+
+/*************section-five***************/
+.fifth-section
+{ padding:2% 0;
+  background:#e9f9ff;
+}
+
+/*.fifth-section h4
+{ text-align:center;
+font-family: courgette,cursive;
+ color: #2acb35;
+ font-size:24px;
+}*/
+
+.faq 
+{ font-size:48px;
+    line-height: 120%;
+    color: #3298dc;
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	text-align:center;
+	color: #000;
+}
+
+.fifth-section h2
+{ font-size: 28px;
+    line-height: 44px;
+    color: #02227d;
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+}
+
+.fifth-section p{
+	font-size: 22px;
+    line-height: 150%;
+	
+}
+/*************section-five***************/
+
+
+<!--product-section-start--> 
+
+
+ .product-section {
+	margin: 30px 0;
+}
+.pro-box {
+	background: #fff;
+	padding: 15px 10px;
+	border: 2px solid #000;
+	border-radius: 6px;
+	box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+	color: #4a4a4a;
+	display: block;
+	text-align: center;
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+.bottle-quantity {
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	color: #1b514d;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h3.bottle-duration {
+	margin-top: 0px;
+	font-family: arial;
+	font-weight: 600;
+	font-size: 26px;
+	margin-bottom: 5%;
+}
+h1.pro-price {
+	font-size: 55px;
+	color: #00799e;
+	font-family: arial;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.pro-total-price {
+	font-family: arial !important;
+	font-weight: 600;
+	font-size: 23px !important;
+	margin-bottom: 0;
+	color: #000 !important;
+}
+.pro-total-price span {
+	text-decoration: line-through;
+	font-weight: 400;
+	font-size: 26px;
+}
+.pro-save {
+	color: #a62717;
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 0;
+}
+.flex-con {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+#product-box-1 .flex-con {
+	margin-bottom: 12%;
+}
+.per-bottle {
+	font-size: 16px !important;
+	font-weight: 600;
+	color: #000 !important;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
+	color: #1b514d !important;
+}
+/*****************************/ 
+.product-padding {
+	padding: 0;
+}
+.pro-box {
+	padding: 0;
+	border-radius: 0px;
+}
+.pro-sec-mr {
+	margin: 5% 14%;
+}
+.bottle-quantity {
+	font-size: 20px;
+	margin-top: 10px;
+}
+.pro-head {
+	background: #747474;
+}
+.pro-head h1 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.pro-add-cart {
+	width: 82%;
+}
+.pro-Guarantee {
+	font-family: arial;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 0;
+}
+.credit-card {
+	margin-bottom: 10px;
+}
+#red-best-value {
+	background: #ff0000;
+}
+#pro-6 {
+	margin-top: -5%;
+}
+.ship-con {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.free-shipping {
+	margin-top: 8px;
+}
+<!--product-section-end-->
+
+@media (min-width: 1200px)
+{
+.custom-container {
+    max-width: 1650px;
+	width:auto;
+}
+
+}
+
+
+
+@media only screen and (max-width:1200px)
+{ .top-area h1
+{ font-size:45px;
+}
+
+}
+
+@media only screen and (max-width:991px)
+{ .top-area .order-now {
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.top-area
+{ padding:7% 0 0;
+}
+
+.pad-left-0
+{ padding-left:15px;
+}
+
+.second-section .order-now {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.second-section .reclaim { text-align:center;}
+.second-section .boost { text-align:center;}
+
+.grt
+{   width: 34%;
+    margin: 0 auto;
+    display: block;
+}
+
+.third-section .order-now {margin-top:5%; }
+
+  
+  .pro-box
+{ margin-bottom:10%;
+}
+  
+  
+  
+
+.pro-sec-mr {
+    margin: 5% 28% 0;
+}
+.service-box:before { height:100%;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:480px)
+{
+
+  .third-section .order-now {margin-top:9%; }
+  .third-section .click-here { line-height:132%;}
+  
+  
+.second-section .order-now {
+    margin-top: 9%;
+    margin-bottom: 6%;
+}
+
+.grt
+{ width:65%;
+}
+
+.pro-sec-mr {
+    margin: 5% 12%;
+}
+
+.forth-section h3 {
+    font-size: 22px;
+    line-height: 135%;
+}
+
+.second-section h2
+{ margin-bottom:15px;
+}
+
+.second-section h4
+{ margin-top:8%;
+}
+
+
+	
+	 .pro-box
+  { margin-bottom:30px;
+  }
+  
+ #wh-wrapper-2 {
+    margin: 0;
+} 
+  .credit-card{
+    margin-bottom:15px !important;
+  }
+  
+  .ship-image{
+    margin-top: 5px;
+  }
+  
+  #pro-6 {
+    margin-top:0;
+}
+
+/*************section-one***************/	
+.top-area h1{
+	font-size: 40px;
+}
+.top-area h2{
+	font-size: 27px;
+	line-height:120%;
+}
+.top-area .order-now
+  { margin-top:10%;
+  }
+  
+
+/*************section-one***************/
+
+/*************section-forth***************/
+.forth-section h2{
+	font-size:31px;
+}
+
+.faq{
+	font-size:44px;
+}
+/*************section-forth***************/
+
+/*************section-five***************/
+
+.fifth-section h2{
+	font-size:26px;
+	line-height: 120%;
+}
+
+.fifth-section p{
+	font-size:20px;
+}
+
+
+.fifth-section {
+    padding: 2% 4%;
+    background: #e9f9ff;
+}
+/*************section-five***************/
+
+
+
+
+}
+
